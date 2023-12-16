@@ -1,6 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=M+PLUS+2&display=swap" rel="stylesheet">
 	<link rel="stylesheet" href="/style/reset.css">
 	<link rel="stylesheet" href="/style/main.css">
 	<meta charset="UTF-8">
@@ -11,46 +14,56 @@
 	<nav>
 		<ul>
 			<li><a href="#intro" rel="">Intro</a></li>
-			<li><a href="#technologies">Tech</a></li>
+			<li><a href="#resume">Resume</a></li>
 			<li><a href="#projects">Projects</a></li>
 			<li><a href="#contact">Contact</a></li>
 		</ul>
 	</nav>
 	<div class="wrapper">
 		<section id="intro">
-			<img src="" alt="Brian Amos">
-			<h1>Brian Amos</h1>
-			<h3>Aspiring Front End Developer</h3>
-		</section>
-		<section id="technologies">
-			<h2>Tech</h2>
+			<img id="brianimg" src="https://placehold.jp/400x600.png" height="600" width="400" alt="Brian Amos">
+			<div id="intro_text">
+				<h1>Brian Amos</h1>
+				<h3 id="tagline">Aspiring Front End Developer</h3>
+			</div>
 		</section>
 		<section id="projects">
 			<h2>Projects</h2>
 		</section>
+		<section id="resume">
+			<h2>Resume</h2>
+			<div>
+				<p>Work History</p>
+			</div>
+		</section>
 		<section id="contact">
 			<h2>Contact Me</h2>
-			<form action="" method="post">
+			<form action="" method="post" id="contact_form">
 				<div>
-					<label for="name">Name:</label>
+					<label for="name"><h4>Name:</h4></label>
 					<input type="text" name="name" id="name_input">
 				</div>
 				<div>
-					<label for="email">Email:</label>
+					<label for="email"><h4>Email:</h4></label>
 					<input type="email" name="email" id="email_input">
 				</div>
 				<div>
-					<label for="message">Message:</label>
-					<input type="text" name="message" id="message_input">
+					<label for="message"><h4>Message:</h4></label>
+					<textarea name="message" id="message_input" cols="50" rows="10"></textarea>
 				</div>
-				<div>
+				<div id="submit_wrapper">
 					<button type="submit">Submit</button>
 				</div>
 			</form>
 			<h2>Connect with Me on Social Media</h2>
+			<div id="social_media">
+				<div class="social_media_item"><h4>Twitter</h4></div>
+				<div class="social_media_item"><h4>Instagram</h4></div>
+				<div class="social_media_item"><h4>Github</h4></div>
+			</div>
 		</section>
 		<footer>
-
+			<p>Copyright 2023</p>
 		</footer>
 	</div>
 </body>

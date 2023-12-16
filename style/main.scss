@@ -1,0 +1,128 @@
+$font-family: 'M PLUS 2', sans-serif;
+
+
+body {
+	font-family: $font-family;
+}
+.wrapper {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+  	justify-content: center;
+	background: linear-gradient(45deg, rgb(67, 67, 124), rgb(65, 66, 77));
+}
+nav {
+	ul {
+		list-style-type: none;
+		margin: 0;
+		padding: 0;
+		overflow: hidden;
+	}
+	li {
+		float: left;
+		a {
+			display: block;
+			text-align: center;
+			padding: 8px;
+			text-decoration: none;
+			font-family: $font-family;
+		}
+		a:hover {
+			background-color: #303030;
+		}
+	}
+}
+section {
+	min-height: 300px;	
+	min-width: 100%;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	justify-content: center;
+}
+h1 {
+	font-size: 56px;
+}
+h2{
+	font-size: 48px;
+	padding: 10px 15px;
+}
+h3 {
+	font-size: 32px;
+}
+h4 {
+	padding: 5px 0px;
+	font-size: 24px;
+}
+p {
+	padding: 10px 10px;
+	font-size: 18px;
+}
+#intro_text {
+	padding: 20px;
+}
+#intro {
+	div {
+		h3 {
+			padding-left: 30px;
+		}
+	}
+	flex-direction: row;
+}
+#brianimg {
+	padding: 50px 10px;
+
+}
+#contact_form{
+	flex-direction: row;
+	width: 500px;
+}
+#submit_wrapper {
+	margin: 10px 20px;
+	text-align: center;
+}
+input{
+	height: 24px;
+	width: 100%;
+}
+input,
+textarea,
+select {
+	font-size: 100%;
+	font-family: inherit;
+	box-sizing: border-box;
+	margin: 0;
+	padding: 20px 10px;
+	width: 100%;
+	margin: 10px 0;
+}
+
+label {
+	padding: 10px 20px;
+}
+button {
+	padding: 10px 20px;
+	font-family: inherit;
+	font-size: 18px;
+	background-color: #eb4034;
+	color: white;
+	border: none;
+	border-radius: 30px;
+	min-width: 140px;
+
+}
+#message_input {
+	line-height: 18px;
+	padding: 10px 10px;
+}
+#social_media {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+.social_media_item {
+	padding: 15px 25px;
+}
+footer {
+	height: 50px;
+}
