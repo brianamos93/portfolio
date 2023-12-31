@@ -11,12 +11,14 @@ body {
   	justify-content: center;
 	background: linear-gradient(45deg, rgb(67, 67, 124), rgb(65, 66, 77));
 }
+
 nav {
 	ul {
 		list-style-type: none;
 		margin: 0;
 		padding: 0;
 		overflow: hidden;
+		line-height: 50px;
 	}
 	li {
 		float: left;
@@ -77,6 +79,7 @@ p {
 	display: flex;
 	align-items: center;
 	justify-content: center;
+	max-width: 1300px;
 
 }
 .project_wrapper {

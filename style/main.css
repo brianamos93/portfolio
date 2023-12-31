@@ -15,6 +15,7 @@ nav ul {
   margin: 0;
   padding: 0;
   overflow: hidden;
+  line-height: 50px;
 }
 nav li {
   float: left;
@@ -81,6 +82,7 @@ p {
   display: flex;
   align-items: center;
   justify-content: center;
+  max-width: 1300px;
 }
 
 .project_wrapper {
